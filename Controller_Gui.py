@@ -12,16 +12,16 @@ from tkinter import Tk
 
 
 def clicked_plus(num1, num2):
-    return Model.plus(float(num1), float(num2))
+    return Model.plus(float(num1.get()), float(num2.get()))
 
 def clicked_minus(num1, num2):
-    return Model.minus(float(num1), float(num2))
+    return Model.minus(float(num1.get()), float(num2.get()))
 
 def clicked_multiplication(num1, num2):
-    return Model.multiplication(float(num1), float(num2))
+    return Model.multiplication(float(num1.get()), float(num2.get()))
     
 def clicked_division(num1, num2):
-    return Model.division(float(num1), float(num2))
+    return Model.division(float(num1.get()), float(num2.get()))
 
 if __name__ == "__main__":
     

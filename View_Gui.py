@@ -70,16 +70,16 @@ class View:
         
     
     def clicked_plus(self):
-        self.result_plus['text'] = Controller_Gui.clicked_plus(self.pnum1.get(), self.pnum2.get())
+        self.result_plus['text'] = Controller_Gui.clicked_plus(self.pnum1, self.pnum2)
         
     def clicked_minus(self):
-        self.result_minus['text'] = Controller_Gui.clicked_minus(self.mnum1.get(), self.mnum2.get())
+        self.result_minus['text'] = Controller_Gui.clicked_minus(self.mnum1, self.mnum2)
 
     def clicked_multiplication(self):
-        self.result_mul['text'] = Controller_Gui.clicked_multiplication(self.munum1.get(), self.munum2.get())
+        self.result_mul['text'] = Controller_Gui.clicked_multiplication(self.munum1, self.munum2)
 
     def clicked_division(self):
-        self.result_div['text'] = Controller_Gui.clicked_division(self.dnum1.get(), self.dnum2.get())
+        self.result_div['text'] = Controller_Gui.clicked_division(self.dnum1, self.dnum2)
     
 
 
